@@ -1,8 +1,2 @@
-#oneline added
-#secondline added
-#thirdline added
-#fourth line added
-#fivth line added
-#six line adde
+#After clone repo run the below command
 # git config core.hookspath .githooks
-#  six line added
