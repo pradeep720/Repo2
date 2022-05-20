@@ -4,3 +4,4 @@
 #fourth line added
 #fivth line added
 #six line adde
+# git config core.hookspath .githooks
