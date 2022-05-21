@@ -1,6 +1,6 @@
 #!/bin/sh
 
-exec  git config core.hookspath .githooks
+# exec  git config core.hookspath .githooks
 
 
 exec powershell.exe -NoProfile -ExecutionPolicy Bypass -File '.githooks\commit-msg.ps1' $1
