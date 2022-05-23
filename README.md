@@ -1,6 +1,6 @@
 # After clone repo run the below commands
 
-# One time we have to run below command each developer machine
+# One time we have to run below command each developer 
 
 ```
 git config --get core.hooksPath
