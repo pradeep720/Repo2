@@ -9,3 +9,7 @@ git config --get core.hooksPath
 ```
  git config --global core.hookspath .githooks
 ``` 
+
+```
+ git config --list --show-scope
+``` 
