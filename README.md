@@ -5,5 +5,5 @@ git config --get core.hooksPath
 ```
 
 ```
- git config core.hookspath .githooks
+ git config --global core.hookspath .githooks
 ``` 
