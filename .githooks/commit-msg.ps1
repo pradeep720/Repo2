@@ -7,8 +7,8 @@ $ErrorActionPreference = "stop"
 
 $commitMsg = Get-Content $commitPath -TotalCount 1
 
-if ($commitMsg -notmatch '(^AB#)(\d{1,6})\s(\w+)') {
-    Write-Information -MessageData "commit isn't in correct format: '<AB#><1-6 digits>  <description>'" -InformationAction Continue
+if ($commitMsg -notmatch '(^AB#)(\d{1,})\s(\w+)') {
+    Write-Information -MessageData "commit isn't in correct format: '<AB#><1-* digits>  <description>'" -InformationAction Continue
     Write-Information -MessageData "commit message: $commitMsg" -InformationAction Continue
     Write-Information -MessageData "please ensure your commit message complies" -InformationAction Continue
     exit 1
