@@ -1,4 +1,4 @@
-#After clone repo run the below commands
+#After clone repo run the below commandss
 
 ```
 git config --get core.hooksPath
